@@ -1,0 +1,47 @@
+.spidometr{
+    width: 600px;
+    margin: 0 auto;
+    height: 300px;
+    border-top-left-radius: 400px;
+    border-top-right-radius: 400px;
+    margin-top: 100px;
+    background-color: greenyellow;
+    position: relative;
+}
+
+.spidometr>p{
+    position: absolute;
+    font-size: 50px;
+    margin: 0;
+}
+.suret_0{
+    bottom: 0;
+}
+.suret_60{
+    left: 60px;
+    top: 30%;
+    transform: rotate(-45deg);
+}
+.suret_120{
+    left: 40%;
+}
+.suret_150{
+    right: 60px;
+    top: 30%;
+    transform: rotate(45deg);
+}
+.suret_180{
+    bottom: 0;
+    right: 0;
+}
+
+.eqreb{
+    width: 300px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    bottom: 0%;
+    left:0 ;
+    transform: rotate(0deg);
+    transform-origin: right;
+}
