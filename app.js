@@ -1,6 +1,7 @@
 const Tormoz=document.getElementById(`Tormoz`)
 const QazVer=document.getElementById(`QazVer`)
 
+let suret=0;
 eqreb.style.transform = `rotate(${suret}deq)`
 
 Tormoz.onclick=function(){
